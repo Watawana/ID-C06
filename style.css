@@ -1,0 +1,255 @@
+h1{
+    text-transform: uppercase;
+    line-height: 2cm;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{ 
+    background-color: #0b0054;
+    color: #fbbe00;
+        -webkit-touch-callout: none; /* iOS Safari */
+          -webkit-user-select: none; /* Safari */
+           -khtml-user-select: none; /* Konqueror HTML */
+             -moz-user-select: none; /* Firefox */
+              -ms-user-select: none; /* Internet Explorer/Edge */
+                  user-select: none; /* Non-prefixed version, currently
+                                        supported by Chrome and Opera */
+
+}
+
+.box-a{
+    font-family: monospace;
+
+    border:#fbbe00  dashed;
+
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+}
+header{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ul{
+    font-family: monospace;
+}
+.container{
+    width: 100%;
+
+}
+.box-c {
+    float: right;
+    display: inline-block;
+    border: 3px rgb(2, 0, 128) dashed;
+  }
+abbr{
+    text-decoration: none;
+}
+a:hover{
+    color: greenyellow;
+}
+a:active{
+    color: yellow;
+}
+.box-d{
+    float: right;
+    display: inline-block;
+    margin-right: 100px;
+    border: 3px rgb(2, 0, 128) dashed;
+}
+ul{
+    margin-left: 20px;
+}
+.box-f{
+    font-family: monospace;
+    margin-left: 20px;
+}
+.frm{
+    padding: 10px;
+}
+.frm label{
+    display: block;
+}
+.frm input[type="text"], .frm input[type="Email"], .frm input[type="Number"], .frm input[type="Date"], .frm input[type="file"] {
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: orangered 2px solid;
+}
+
+.frm input[type="submit"] {
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border: 1px #fff solid; 
+    opacity: 1;
+    background-color: transparent;
+    cursor: pointer;
+}
+.frm input[type="submit"]:hover{
+    background-color: white;
+    color: black;
+}
+.asd{
+    max-width: 500px;
+    max-height: 100px;
+    display: inline-flex;
+    padding: 5px;
+}
+.rdf{
+    max-width: 100%;
+    padding: 10px;
+    margin: auto;
+}
+.box-x{
+    float: left;
+    width: 30.33%;
+    font-family: monospace;
+    border: 5px red solid;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px 1.5%;
+}
+button{
+    padding: 10px;
+}
+#main-section{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0px;
+} 
+#main-header{
+    background-image: url(file:///D:/Web%20Development%20Projects/website/Pictures/19-195609_kurzgesagt-universe.png);
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+/* Logo */
+.logo{
+    float: left;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+}
+
+/* Nav bar */
+#navbar{
+    margin-top: 30px;
+    float: right;
+    padding: 10px;
+}
+
+#navbar ul{
+    padding: 0px;
+    list-style: none;
+}
+
+#navbar li{
+    display: inline;
+    padding: 15px 10px;
+    cursor: pointer;
+}
+
+#navbar a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 10px;
+    cursor: pointer;
+}
+
+#navbar a:hover{
+    background-color: #ddd;
+    color: #000;
+}
+
+/* Body Content */
+#main-section{
+    float: left;
+    width: 100%;
+    padding: 20px;
+}
+/* Media Queries */
+@media(max-width:900px){
+    #main-section{
+        float: none;
+        width: 100%;
+    }
+
+    #sidebar{
+        float: none;
+        width: 100%;
+    }
+}
+
+@media(min-width:1100px){
+    .qwda{
+        padding-bottom: 10px;
+    }
+
+    .asmo{
+        padding-left: 20px;
+    }
+}
+
+@media(max-width:865px){
+    #navbar li{
+        padding: 10px 5px;
+    }
+
+    #navbar a{
+        font-size: 16px;
+        padding: 10px 5px;
+    }
+}
+
+@media(max-width:765px){
+
+    #main-header{
+        position: static;
+    }
+
+    .logo{
+        float: none;
+        margin-right: 5%;
+        height: 40px;
+    }
+
+    #navbar{
+        float: none;
+    }
+
+    #navbar a{
+        display: block;
+        text-align: center;
+        padding-right: 6%;
+    }
+
+}
+
+@media(max-height:100px){
+    .rdf{
+        display: block;
+        text-align: center;
+        padding-right: 6%; 
+    }
+
+    .rdf img{
+        display: inline-flex;
+        align-items: center;
+    }
+}
+.T{
+    color: white;
+    text-decoration: none;
+}
+.b1{
+    border: white 2px solid;
+    background-color: transparent;
+    text-decoration: none;
+}
